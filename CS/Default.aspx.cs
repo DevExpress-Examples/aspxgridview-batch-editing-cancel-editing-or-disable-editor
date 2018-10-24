@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using DevExpress.Web.ASPxGridView;
+using DevExpress.Web;
 
 public partial class _Default : System.Web.UI.Page {
     protected void Page_Load(object sender, EventArgs e) {
@@ -16,7 +16,7 @@ public partial class _Default : System.Web.UI.Page {
         });
         ASPxGridView1.DataBind();
     }
-    protected void ASPxGridView1_CustomJSProperties(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewClientJSPropertiesEventArgs e) {
+    protected void ASPxGridView1_CustomJSProperties(object sender, DevExpress.Web.ASPxGridViewClientJSPropertiesEventArgs e) {
         var clientData = new Dictionary<int, object>();
         var grid = sender as ASPxGridView;
         for (int i = grid.VisibleStartIndex; i < grid.VisibleStartIndex + grid.SettingsPager.PageSize; i++) {
