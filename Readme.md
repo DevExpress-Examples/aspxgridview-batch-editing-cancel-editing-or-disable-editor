@@ -27,6 +27,7 @@ protected void ASPxGridView1_CustomJSProperties(object sender, DevExpress.Web.AS
 if (condition) e.cancel = true;
 
 ```
+
 <p> or disable the editor by obtaining its client instance:</p>
 
 ```js
