@@ -1,4 +1,7 @@
 # ASPxGridView - Batch Editing - How to cancel editing or disable the editor conditionally
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t115144/)**
+<!-- run online end -->
 
 
 <p><strong>Starting from version 17.1,</strong> we introduced a new client-side <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebScriptsASPxClientGridView_FocusedCellChangingtopic">FocusedCellChanging</a> event. This event allows you to skip focusing and editing a cell. Refer to the <a href="https://www.devexpress.com/Support/Center/p/T496531">ASPxGridView - Batch Edit mode - How to use the client-side FocusedCellChanging event and cancel editing or disable an editor conditionally</a> example for more details.<br><br><strong>For versions 16.2 and below:</strong><br>This example demonstrates how to cancel editing or disable the editor conditionally for the grid when batch editing is in use. It is possible to execute your logic either on the client or server side for a complex business model.
